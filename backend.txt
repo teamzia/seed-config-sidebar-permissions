@@ -1,0 +1,36 @@
+# Backend logic for the sidebar
+
+- After successful authentication, fetch the sidebar for the user. /api/v1/sidebar
+- Determine the user’s role by querying the user_roles table.
+- From the role, fetch the allowed sidebar_item_ids in role_sidebar_visibility.
+- Retrieve the full item data for those IDs from the sidebar_items table
+
+Return the items in the expected tree structure:
+
+Example Response:
+[
+  {
+    "id": "uuid",
+    "key": "dashboard",
+    "icon": "FiHome",                  // string
+    "route": "/dashboard",
+    "name": { "en": "Dashboard", "ar": "لوحة التحكم" },
+    "default_order": 1,
+    "children": [
+      {
+        "id": "uuid",
+        "key": "analytics",
+        "icon": "FiBarChart2",
+        "route": "/dashboard/analytics",
+        "name": { "en": "Analytics", "ar": "التحليلات" },
+        "default_order": 1,
+        "children": []
+      }
+    ]
+  }
+]
+
+Reference ticket COM-55 for details on error handling, loading skeletons, and other related behaviors.
+
+Ignore the following statement from "Fetching Data" section because it's confusing
+"Upon user login, the appropriate sidebar menu items will be dynamically fetched based on the user’s organization and role."

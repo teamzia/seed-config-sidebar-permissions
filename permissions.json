@@ -1,0 +1,208 @@
+[
+  {
+    "role_key": "super",
+    "permissions": [
+      { "key": "view_user_profile", "visible": null },
+      { "key": "edit_user_profile", "visible": null },
+
+      { "key": "view_assessments", "visible": null },
+      { "key": "create_assessments", "visible": null },
+      { "key": "update_assessments", "visible": null },
+      { "key": "delete_assessments", "visible": null }
+
+      { "key": "view_entities", "visible": null },
+      { "key": "create_entities", "visible": null },
+      { "key": "update_entities", "visible": null },
+      { "key": "delete_entities", "visible": null },
+
+      { "key": "view_attributes", "visible": null },
+      { "key": "create_attributes", "visible": null },
+      { "key": "update_attributes", "visible": null },
+      { "key": "delete_attributes", "visible": null },
+
+      { "key": "view_industries", "visible": null },
+      { "key": "create_industries", "visible": null },
+      { "key": "update_industries", "visible": null },
+      { "key": "delete_industries", "visible": null },
+
+      { "key": "view_disclosures", "visible": null },
+      { "key": "create_disclosures", "visible": null },
+      { "key": "update_disclosures", "visible": null },
+      { "key": "delete_disclosures", "visible": null },
+
+      { "key": "view_faqs", "visible": null },
+      { "key": "create_faqs", "visible": null },
+      { "key": "update_faqs", "visible": null },
+      { "key": "delete_faqs", "visible": null },
+
+      { "key": "view_news", "visible": null },
+      { "key": "create_news", "visible": null },
+      { "key": "update_news", "visible": null },
+      { "key": "delete_news", "visible": null },
+
+      { "key": "view_organizations", "visible": null },
+      { "key": "create_organizations", "visible": null },
+      { "key": "update_organizations", "visible": null },
+      { "key": "delete_organizations", "visible": null },
+      { "key": "restore_organizations", "visible": null },
+      
+      { "key": "create_products", "visible": null },
+
+      { "key": "view_plans", "visible": null },
+      { "key": "create_plans", "visible": null },
+      { "key": "update_plans", "visible": null },
+      { "key": "delete_plans", "visible": null },
+
+      
+      { "key": "view_reports", "visible": null },
+      { "key": "create_reports", "visible": null },
+      { "key": "update_reports", "visible": null },
+      { "key": "delete_reports", "visible": null },
+
+      { "key": "view_holidays", "visible": null },
+      { "key": "create_holidays", "visible": null },
+      { "key": "update_holidays", "visible": null },
+      { "key": "delete_holidays", "visible": null },
+
+      { "key": "view_regulators", "visible": null },
+      { "key": "create_regulators", "visible": null },
+      { "key": "update_regulators", "visible": null },
+      { "key": "delete_regulators", "visible": null },
+
+      { "key": "view_roles", "visible": null },
+      { "key": "create_roles", "visible": null },
+      { "key": "update_roles", "visible": null },
+      { "key": "delete_roles", "visible": null },
+
+      { "key": "view_rules", "visible": null },
+      { "key": "upload_rules", "visible": null },
+      { "key": "update_rules", "visible": null },
+      { "key": "delete_rules", "visible": null },
+      { "key": "view_taxonomies", "visible": null },
+      { "key": "update_taxonomies", "visible": null },
+      { "key": "delete_taxonomies", "visible": null },
+      { "key": "create_rule_notes", "visible": null },
+
+      { "key": "view_users", "visible": null },
+      { "key": "create_users", "visible": null },
+      { "key": "update_users", "visible": null },
+      { "key": "delete_users", "visible": null },
+
+      { "key": "send_manual_notifications", "visible": null }
+
+    ]
+  },
+
+  {
+    "role_key": "admin",
+    "permissions": [
+      { "key": "view_user_profile", "visible": null },
+      { "key": "edit_user_profile", "visible": null },
+
+      { "key": "view_available_assessments", "visible": null },
+      { "key": "view_completed_assessments", "visible": null },
+      { "key": "view_incomplete_assessments", "visible": null },
+      { "key": "take_assessment", "visible": null },
+      { "key": "view_assessment_gaps", "visible": null },
+      { "key": "view_assessment_overview", "visible": null },
+      { "key": "start_assessment", "visible": null },
+      { "key": "view_treatment_actions", "visible": null },
+      { "key": "archive_assessments", "visible": null },
+      { "key": "view_archived_assessments", "visible": null },
+      { "key": "create_tasks", "visible": null },
+      { "key": "update_tasks", "visible": null },
+      { "key": "delete_tasks", "visible": null },
+      { "key": "view_tasks", "visible": null },
+
+      { "key": "view_org_info", "visible": null },
+
+      { "key": "view_scheduled_disclosures", "visible": true },
+      { "key": "view_adhoc_disclosures", "visible": null },
+      // { "key": "view_overdue_disclosures", "visible": null },
+      { "key": "view_all_created_disclosures", "visible": null },
+      { "key": "create_disclosures", "visible": null },
+      { "key": "approve_disclosures", "visible": null },
+      { "key": "submit_disclosures", "visible": null },
+
+      { "key": "view_faqs", "visible": null },
+
+      { "key": "view_adhoc_reports", "visible": null },
+      { "key": "view_scheduled_reports", "visible": null },
+      { "key": "view_all_created_reports", "visible": null },
+      // { "key": "view_overdue_reports", "visible": null },
+      { "key": "create_reports", "visible": null },
+      { "key": "approve_reports", "visible": null },
+      { "key": "reject_reports", "visible": null },
+      { "key": "submit_reports", "visible": null },
+
+      { "key": "view_resources", "visible": null },
+
+      { "key": "view_rules", "visible": null },
+
+      { "key": "view_org_roles", "visible": null },
+      { "key": "create_org_roles", "visible": null },
+      { "key": "update_org_roles", "visible": null },
+      { "key": "delete_org_roles", "visible": null },
+
+      { "key": "view_org_users", "visible": null },
+      { "key": "create_org_users", "visible": null },
+      { "key": "update_org_users", "visible": null },
+      { "key": "delete_org_users", "visible": null },
+
+      { "key": "upload_documents", "visible": null },
+      { "key": "view_documents", "visible": null },
+      { "key": "delete_documents", "visible": null }
+    ]
+  },
+  {
+    "role_key": "officer",
+    "permissions": [
+      { "key": "view_user_profile", "visible": null },
+      { "key": "edit_user_profile", "visible": null },
+      
+      { "key": "view_available_assessments", "visible": null },
+      { "key": "view_completed_assessments", "visible": null },
+      { "key": "view_incomplete_assessments", "visible": null },
+      { "key": "take_assessment", "visible": null },
+      { "key": "view_assessment_gaps", "visible": null },
+      { "key": "view_assessment_overview", "visible": null },
+      { "key": "start_assessment", "visible": null },
+      { "key": "view_treatment_actions", "visible": null },
+      { "key": "archive_assessments", "visible": null },
+      { "key": "view_archived_assessments", "visible": null },
+      { "key": "create_tasks", "visible": null },
+      { "key": "update_tasks", "visible": null },
+      { "key": "delete_tasks", "visible": null },
+      { "key": "view_tasks", "visible": null },
+
+      { "key": "view_org_info", "visible": null },
+
+      { "key": "view_scheduled_disclosures", "visible": true },
+      { "key": "view_adhoc_disclosures", "visible": null },
+      // { "key": "view_overdue_disclosures", "visible": null },
+      { "key": "view_own_created_disclosures", "visible": null },
+      { "key": "create_disclosures", "visible": null },
+      { "key": "approve_disclosures", "visible": null },
+      { "key": "submit_disclosures", "visible": null },
+
+      { "key": "view_faqs", "visible": null },
+
+      { "key": "view_adhoc_reports", "visible": null },
+      { "key": "view_scheduled_reports", "visible": null },
+      { "key": "view_own_created_reports", "visible": null },
+      // { "key": "view_overdue_reports", "visible": null },
+      { "key": "create_reports", "visible": null },
+      { "key": "approve_reports", "visible": null },
+      { "key": "reject_reports", "visible": null },
+      { "key": "submit_reports", "visible": null },
+
+      { "key": "view_resources", "visible": null },
+
+      { "key": "view_rules", "visible": null },
+
+      { "key": "upload_documents", "visible": null },
+      { "key": "view_documents", "visible": null },
+      { "key": "delete_documents", "visible": null }
+    ]
+  }
+]

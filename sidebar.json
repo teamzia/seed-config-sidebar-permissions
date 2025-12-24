@@ -1,0 +1,307 @@
+[
+  {
+    "role_key": "super",
+    "sidebar_items": [
+      {
+        "key": "classification_mgmt",
+        "icon": "Tags",
+        "label_en": "Classification Management",
+        "label_ar": "إدارة التصنيفات",
+        "route": "/classifications",
+        "order": 1,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "plans_mgmt",
+        "icon": "Layers",
+        "label_en": "Plans Management",
+        "label_ar": "إدارة الخطط",
+        "route": "/plans",
+        "order": 2,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "organizations_mgmt",
+        "icon": "Building2",
+        "label_en": "Organizations Management",
+        "label_ar": "إدارة المنظمات",
+        "route": "/organizations",
+        "order": 3,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "rules_mgmt",
+        "icon": "Gavel",
+        "label_en": "Rules Management",
+        "label_ar": "إدارة القواعد",
+        "route": "/rules",
+        "order": 4,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "reporting_mgmt",
+        "icon": "BarChart2",
+        "label_en": "Reporting Management",
+        "label_ar": "إدارة التقارير",
+        "route": "/reporting",
+        "order": 5,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "announcements_mgmt",
+        "icon": "Megaphone",
+        "label_en": "Announcements Management",
+        "label_ar": "إدارة الإعلانات",
+        "route": "/announcements",
+        "order": 6,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "news_mgmt",
+        "icon": "Newspaper",
+        "label_en": "News Management",
+        "label_ar": "إدارة الأخبار",
+        "route": "/news",
+        "order": 7,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "faq_mgmt",
+        "icon": "HelpCircle",
+        "label_en": "FAQ Management",
+        "label_ar": "إدارة الأسئلة الشائعة",
+        "route": "/faq",
+        "order": 8,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "resources_mgmt",
+        "icon": "Library",
+        "label_en": "Resources Management",
+        "label_ar": "إدارة الموارد",
+        "route": "/resources",
+        "order": 9,
+        "parent_key": null,
+        "is_visible": true
+      },
+      {
+        "key": "assessment_mgmt",
+        "icon": "CheckSquare",
+        "label_en": "Assessment Management",
+        "label_ar": "إدارة التقييم",
+        "route": "/assessment",
+        "order": 10
+      },
+      {
+        "key": "role_management",
+        "icon": "Shield",
+        "label_en": "Role Management",
+        "label_ar": "إدارة الأدوار",
+        "route": "/roles",
+        "order": 11
+      },
+      {
+        "key": "user_management",
+        "icon": "Users",
+        "label_en": "User Management",
+        "label_ar": "إدارة المستخدمين",
+        "route": "/users",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "role_key": "admin",
+    "sidebar_items": [
+      {
+        "key": "dashboard",
+        "icon": "LayoutDashboard",
+        "label_en": "Dashboard",
+        "label_ar": "لوحة التحكم",
+        "route": "/dashboard",
+        "order": 1
+      },
+      {
+        "key": "rules_navigator",
+        "icon": "BookOpenText",
+        "label_en": "Rules Navigator",
+        "label_ar": "مستعرض القواعد",
+        "route": "/rules",
+        "order": 2
+      },
+      {
+        "key": "reporting_hub",
+        "icon": "BarChart2",
+        "label_en": "Reporting Hub",
+        "label_ar": "مركز التقارير",
+        "route": "/reporting",
+        "order": 3
+      },
+      {
+        "key": "announcements",
+        "icon": "Megaphone",
+        "label_en": "Announcements",
+        "label_ar": "الإعلانات",
+        "route": "/announcements",
+        "order": 4
+      },
+      {
+        "key": "assessment",
+        "icon": "CheckSquare",
+        "label_en": "Assessment",
+        "label_ar": "التقييم",
+        "route": "/assessment",
+        "order": 5
+      },
+      {
+        "key": "documents",
+        "icon": "FileText",
+        "label_en": "Documents",
+        "label_ar": "المستندات",
+        "route": "/documents",
+        "order": 6
+      },
+      {
+        "key": "resources",
+        "icon": "Library",
+        "label_en": "Resources",
+        "label_ar": "الموارد",
+        "route": "/resources",
+        "order": 7
+      },
+      {
+        "key": "company_profile",
+        "icon": "Building2",
+        "label_en": "Company Profile",
+        "label_ar": "الملف التعريفي للشركة",
+        "route": "/company-profile",
+        "order": 8
+      },
+      {
+        "key": "role_management",
+        "icon": "Shield",
+        "label_en": "Role Management",
+        "label_ar": "إدارة الأدوار",
+        "route": "/roles",
+        "order": 9
+      },
+      {
+        "key": "user_management",
+        "icon": "Users",
+        "label_en": "User Management",
+        "label_ar": "إدارة المستخدمين",
+        "route": "/users",
+        "order": 10
+      },
+      {
+        "key": "other_services",
+        "icon": "Box",
+        "label_en": "Other Services",
+        "label_ar": "خدمات أخرى",
+        "route": "/services",
+        "order": 11
+      },
+      {
+        "key": "faq",
+        "icon": "HelpCircle",
+        "label_en": "FAQ",
+        "label_ar": "الأسئلة الشائعة",
+        "route": "/faq",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "role_key": "officer",
+    "sidebar_items": [
+      {
+        "key": "dashboard",
+        "icon": "LayoutDashboard",
+        "label_en": "Dashboard",
+        "label_ar": "لوحة التحكم",
+        "route": "/dashboard",
+        "order": 1
+      },
+      {
+        "key": "rules_navigator",
+        "icon": "BookOpenText",
+        "label_en": "Rules Navigator",
+        "label_ar": "مستعرض القواعد",
+        "route": "/rules",
+        "order": 2
+      },
+      {
+        "key": "reporting_hub",
+        "icon": "BarChart2",
+        "label_en": "Reporting Hub",
+        "label_ar": "مركز التقارير",
+        "route": "/reporting",
+        "order": 3
+      },
+      {
+        "key": "announcements",
+        "icon": "Megaphone",
+        "label_en": "Announcements",
+        "label_ar": "الإعلانات",
+        "route": "/announcements",
+        "order": 4
+      },
+      {
+        "key": "assessment",
+        "icon": "CheckSquare",
+        "label_en": "Assessment",
+        "label_ar": "التقييم",
+        "route": "/assessment",
+        "order": 5
+      },
+      {
+        "key": "documents",
+        "icon": "FileText",
+        "label_en": "Documents",
+        "label_ar": "المستندات",
+        "route": "/documents",
+        "order": 6
+      },
+      {
+        "key": "resources",
+        "icon": "Library",
+        "label_en": "Resources",
+        "label_ar": "الموارد",
+        "route": "/resources",
+        "order": 7
+      },
+      {
+        "key": "company_profile",
+        "icon": "Building2",
+        "label_en": "Company Profile",
+        "label_ar": "الملف التعريفي للشركة",
+        "route": "/company-profile",
+        "order": 8
+      },
+      {
+        "key": "other_services",
+        "icon": "Box",
+        "label_en": "Other Services",
+        "label_ar": "خدمات أخرى",
+        "route": "/services",
+        "order": 11
+      },
+      {
+        "key": "faq",
+        "icon": "HelpCircle",
+        "label_en": "FAQ",
+        "label_ar": "الأسئلة الشائعة",
+        "route": "/faq",
+        "order": 12
+      }
+    ]
+  }
+]
