@@ -64,11 +64,6 @@
       { "key": "update_holidays", "visible": null },
       { "key": "delete_holidays", "visible": null },
 
-      { "key": "view_regulators", "visible": null },
-      { "key": "create_regulators", "visible": null },
-      { "key": "update_regulators", "visible": null },
-      { "key": "delete_regulators", "visible": null },
-
       { "key": "view_roles", "visible": null },
       { "key": "create_roles", "visible": null },
       { "key": "update_roles", "visible": null },
