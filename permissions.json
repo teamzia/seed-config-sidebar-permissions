@@ -88,8 +88,12 @@
       { "key": "update_users", "visible": null },
       { "key": "delete_users", "visible": null },
 
-      { "key": "send_manual_notifications", "visible": null }
+      { "key": "send_manual_notifications", "visible": null },
 
+      { "key": "view_resources", "visible": null },
+      { "key": "create_resources", "visible": null },
+      { "key": "update_resources", "visible": null },
+      { "key": "delete_resources", "visible": null }
     ]
   },
 
@@ -118,7 +122,6 @@
 
       { "key": "view_scheduled_disclosures", "visible": true },
       { "key": "view_adhoc_disclosures", "visible": null },
-      // { "key": "view_overdue_disclosures", "visible": null },
       { "key": "view_all_created_disclosures", "visible": null },
       { "key": "create_disclosures", "visible": null },
       { "key": "approve_disclosures", "visible": null },
@@ -129,7 +132,6 @@
       { "key": "view_adhoc_reports", "visible": null },
       { "key": "view_scheduled_reports", "visible": null },
       { "key": "view_all_created_reports", "visible": null },
-      // { "key": "view_overdue_reports", "visible": null },
       { "key": "create_reports", "visible": null },
       { "key": "approve_reports", "visible": null },
       { "key": "reject_reports", "visible": null },
@@ -179,7 +181,6 @@
 
       { "key": "view_scheduled_disclosures", "visible": true },
       { "key": "view_adhoc_disclosures", "visible": null },
-      // { "key": "view_overdue_disclosures", "visible": null },
       { "key": "view_own_created_disclosures", "visible": null },
       { "key": "create_disclosures", "visible": null },
       { "key": "approve_disclosures", "visible": null },
@@ -190,7 +191,6 @@
       { "key": "view_adhoc_reports", "visible": null },
       { "key": "view_scheduled_reports", "visible": null },
       { "key": "view_own_created_reports", "visible": null },
-      // { "key": "view_overdue_reports", "visible": null },
       { "key": "create_reports", "visible": null },
       { "key": "approve_reports", "visible": null },
       { "key": "reject_reports", "visible": null },
