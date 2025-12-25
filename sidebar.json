@@ -7,7 +7,7 @@
         "icon": "Tags",
         "label_en": "Classification Management",
         "label_ar": "إدارة التصنيفات",
-        "route": "/classifications",
+        "route": "/super/classifications",
         "order": 1,
         "parent_key": null,
         "is_visible": true
@@ -17,7 +17,7 @@
         "icon": "Layers",
         "label_en": "Plans Management",
         "label_ar": "إدارة الخطط",
-        "route": "/plans",
+        "route": "/super/plans",
         "order": 2,
         "parent_key": null,
         "is_visible": true
@@ -27,7 +27,7 @@
         "icon": "Building2",
         "label_en": "Organizations Management",
         "label_ar": "إدارة المنظمات",
-        "route": "/organizations",
+        "route": "/super/organizations",
         "order": 3,
         "parent_key": null,
         "is_visible": true
@@ -37,7 +37,7 @@
         "icon": "Gavel",
         "label_en": "Rules Management",
         "label_ar": "إدارة القواعد",
-        "route": "/rules",
+        "route": "/super/rules",
         "order": 4,
         "parent_key": null,
         "is_visible": true
@@ -47,7 +47,7 @@
         "icon": "BarChart2",
         "label_en": "Reporting Management",
         "label_ar": "إدارة التقارير",
-        "route": "/reporting",
+        "route": "/super/reporting",
         "order": 5,
         "parent_key": null,
         "is_visible": true
@@ -57,7 +57,7 @@
         "icon": "Megaphone",
         "label_en": "Announcements Management",
         "label_ar": "إدارة الإعلانات",
-        "route": "/announcements",
+        "route": "/super/announcements",
         "order": 6,
         "parent_key": null,
         "is_visible": true
@@ -67,7 +67,7 @@
         "icon": "Newspaper",
         "label_en": "News Management",
         "label_ar": "إدارة الأخبار",
-        "route": "/news",
+        "route": "/super/news",
         "order": 7,
         "parent_key": null,
         "is_visible": true
@@ -77,7 +77,7 @@
         "icon": "HelpCircle",
         "label_en": "FAQ Management",
         "label_ar": "إدارة الأسئلة الشائعة",
-        "route": "/faq",
+        "route": "/super/faq",
         "order": 8,
         "parent_key": null,
         "is_visible": true
@@ -87,7 +87,7 @@
         "icon": "Library",
         "label_en": "Resources Management",
         "label_ar": "إدارة الموارد",
-        "route": "/resources",
+        "route": "/super/resources",
         "order": 9,
         "parent_key": null,
         "is_visible": true
@@ -97,7 +97,7 @@
         "icon": "CheckSquare",
         "label_en": "Assessment Management",
         "label_ar": "إدارة التقييم",
-        "route": "/assessment",
+        "route": "/super/assessment",
         "order": 10
       },
       {
@@ -105,7 +105,7 @@
         "icon": "Shield",
         "label_en": "Role Management",
         "label_ar": "إدارة الأدوار",
-        "route": "/roles",
+        "route": "/super/roles",
         "order": 11
       },
       {
@@ -113,7 +113,7 @@
         "icon": "Users",
         "label_en": "User Management",
         "label_ar": "إدارة المستخدمين",
-        "route": "/users",
+        "route": "/super/users",
         "order": 12
       }
     ]
@@ -186,7 +186,7 @@
         "order": 8
       },
       {
-        "key": "role_management",
+        "key": "roles",
         "icon": "Shield",
         "label_en": "Role Management",
         "label_ar": "إدارة الأدوار",
@@ -194,7 +194,7 @@
         "order": 9
       },
       {
-        "key": "user_management",
+        "key": "users",
         "icon": "Users",
         "label_en": "User Management",
         "label_ar": "إدارة المستخدمين",
