@@ -133,6 +133,9 @@
 
       { "key": "view_resources", "visible": null },
 
+      { "key": "view_personalized_news", "visible": true },
+      { "key": "view_latest_news", "visible": true },
+
       { "key": "view_rules", "visible": null },
 
       { "key": "view_org_roles", "visible": null },
@@ -190,6 +193,9 @@
       { "key": "submit_reports", "visible": null },
 
       { "key": "view_resources", "visible": null },
+
+      { "key": "view_personalized_news", "visible": true },
+      { "key": "view_latest_news", "visible": true },
 
       { "key": "view_rules", "visible": null },
 
