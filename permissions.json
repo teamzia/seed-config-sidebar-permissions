@@ -110,7 +110,7 @@
       { "key": "create_tasks", "visible": null },
       { "key": "update_tasks", "visible": null },
       { "key": "delete_tasks", "visible": null },
-      { "key": "view_tasks", "visible": null },
+      { "key": "view_tasks", "visible": true },
 
       { "key": "view_org_info", "visible": null },
 
@@ -124,7 +124,7 @@
       { "key": "view_faqs", "visible": null },
 
       { "key": "view_adhoc_reports", "visible": null },
-      { "key": "view_scheduled_reports", "visible": null },
+      { "key": "view_scheduled_reports", "visible": true },
       { "key": "view_all_created_reports", "visible": null },
       { "key": "create_reports", "visible": null },
       { "key": "approve_reports", "visible": null },
@@ -150,7 +150,9 @@
 
       { "key": "upload_documents", "visible": null },
       { "key": "view_documents", "visible": null },
-      { "key": "delete_documents", "visible": null }
+      { "key": "delete_documents", "visible": null },
+
+      { "key": "view_regulatory_announcements", "visible": true }
     ]
   },
   {
@@ -171,7 +173,7 @@
       { "key": "create_tasks", "visible": null },
       { "key": "update_tasks", "visible": null },
       { "key": "delete_tasks", "visible": null },
-      { "key": "view_tasks", "visible": null },
+      { "key": "view_tasks", "visible": true },
 
       { "key": "view_org_info", "visible": null },
 
@@ -179,17 +181,14 @@
       { "key": "view_adhoc_disclosures", "visible": null },
       { "key": "view_own_created_disclosures", "visible": null },
       { "key": "create_disclosures", "visible": null },
-      { "key": "approve_disclosures", "visible": null },
       { "key": "submit_disclosures", "visible": null },
 
       { "key": "view_faqs", "visible": null },
 
       { "key": "view_adhoc_reports", "visible": null },
-      { "key": "view_scheduled_reports", "visible": null },
+      { "key": "view_scheduled_reports", "visible": true },
       { "key": "view_own_created_reports", "visible": null },
       { "key": "create_reports", "visible": null },
-      { "key": "approve_reports", "visible": null },
-      { "key": "reject_reports", "visible": null },
       { "key": "submit_reports", "visible": null },
 
       { "key": "view_resources", "visible": null },
@@ -201,7 +200,9 @@
 
       { "key": "upload_documents", "visible": null },
       { "key": "view_documents", "visible": null },
-      { "key": "delete_documents", "visible": null }
+      { "key": "delete_documents", "visible": null },
+
+      { "key": "view_regulatory_announcements", "visible": true }
     ]
   }
 ]
