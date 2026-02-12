@@ -103,6 +103,7 @@
       { "key": "view_incomplete_assessments", "visible": null },
       { "key": "take_assessment", "visible": null },
       { "key": "view_assessment_gaps", "visible": null },
+      { "key": "view_assessment_treatment_actions", "visible": null },
       { "key": "view_assessment_overview", "visible": null },
       { "key": "start_assessment", "visible": null },
       { "key": "archive_assessments", "visible": null },
@@ -125,7 +126,7 @@
 
       { "key": "view_adhoc_reports", "visible": null },
       { "key": "view_scheduled_reports", "visible": true },
-      { "key": "view_all_created_reports", "visible": null },
+      { "key": "view_all_created_reports", "visible": true },
       { "key": "create_reports", "visible": null },
       { "key": "approve_reports", "visible": null },
       { "key": "reject_reports", "visible": null },
@@ -152,7 +153,14 @@
       { "key": "view_documents", "visible": null },
       { "key": "delete_documents", "visible": null },
 
-      { "key": "view_regulatory_announcements", "visible": true }
+      { "key": "view_regulatory_announcements", "visible": true },
+
+      { "key": "use_ai_drafter_reporting", "visible": null },
+      { "key": "use_ai_generator_reporting", "visible": null },
+      { "key": "use_ai_reviewer_reporting", "visible": null },
+      { "key": "use_ai_generator_announcements", "visible": null },
+      { "key": "use_ai_researcher_rules", "visible": null },
+      { "key": "use_ai_drafter_assessment", "visible": null }
     ]
   },
   {
@@ -166,6 +174,7 @@
       { "key": "view_incomplete_assessments", "visible": null },
       { "key": "take_assessment", "visible": null },
       { "key": "view_assessment_gaps", "visible": null },
+      { "key": "view_assessment_treatment_actions", "visible": null },
       { "key": "view_assessment_overview", "visible": null },
       { "key": "start_assessment", "visible": null },
       { "key": "archive_assessments", "visible": null },
@@ -187,7 +196,7 @@
 
       { "key": "view_adhoc_reports", "visible": null },
       { "key": "view_scheduled_reports", "visible": true },
-      { "key": "view_own_created_reports", "visible": null },
+      { "key": "view_own_created_reports", "visible": true },
       { "key": "create_reports", "visible": null },
       { "key": "submit_reports", "visible": null },
 
@@ -202,7 +211,14 @@
       { "key": "view_documents", "visible": null },
       { "key": "delete_documents", "visible": null },
 
-      { "key": "view_regulatory_announcements", "visible": true }
+      { "key": "view_regulatory_announcements", "visible": true },
+
+      { "key": "use_ai_drafter_reporting", "visible": null },
+      { "key": "use_ai_generator_reporting", "visible": null },
+      { "key": "use_ai_reviewer_reporting", "visible": null },
+      { "key": "use_ai_generator_announcements", "visible": null },
+      { "key": "use_ai_researcher_rules", "visible": null },
+      { "key": "use_ai_drafter_assessment", "visible": null }
     ]
   }
 ]
