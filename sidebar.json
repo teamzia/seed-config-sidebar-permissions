@@ -101,7 +101,7 @@
         "order": 10
       },
       {
-        "key": "role_management",
+        "key": "role_mgmt",
         "icon": "Shield",
         "label_en": "Role Management",
         "label_ar": "إدارة الأدوار",
@@ -109,12 +109,20 @@
         "order": 11
       },
       {
-        "key": "user_management",
+        "key": "user_mgmt",
         "icon": "Users",
         "label_en": "User Management",
         "label_ar": "إدارة المستخدمين",
         "route": "/super/users",
         "order": 12
+      },
+      {
+        "key": "holidays_mgmt",
+        "icon": "Calendar",
+        "label_en": "Holidays Management",
+        "label_ar": "إدارة العطل",
+        "route": "/super/holidays",
+        "order": 13
       }
     ]
   },
