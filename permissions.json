@@ -190,6 +190,7 @@
       { "key": "view_adhoc_disclosures", "visible": null },
       { "key": "view_own_created_disclosures", "visible": null },
       { "key": "create_disclosures", "visible": null },
+      { "key": "approve_disclosures", "visible": null },
       { "key": "submit_disclosures", "visible": null },
 
       { "key": "view_faqs", "visible": null },
