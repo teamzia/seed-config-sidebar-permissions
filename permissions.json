@@ -154,7 +154,9 @@
       { "key": "delete_documents", "visible": null },
 
       { "key": "view_regulatory_announcements", "visible": true },
-
+      { "key": "view_dashboard_summary", "visible": true },
+      { "key": "view_compliance_score", "visible": true },
+      
       { "key": "use_ai_drafter_reporting", "visible": null },
       { "key": "use_ai_generator_reporting", "visible": null },
       { "key": "use_ai_reviewer_reporting", "visible": null },
@@ -213,6 +215,8 @@
       { "key": "delete_documents", "visible": null },
 
       { "key": "view_regulatory_announcements", "visible": true },
+      { "key": "view_dashboard_summary", "visible": true },
+      { "key": "view_compliance_score", "visible": true },
 
       { "key": "use_ai_drafter_reporting", "visible": null },
       { "key": "use_ai_generator_reporting", "visible": null },
