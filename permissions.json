@@ -53,7 +53,6 @@
       { "key": "update_plans", "visible": null },
       { "key": "delete_plans", "visible": null },
 
-      
       { "key": "view_reports", "visible": null },
       { "key": "create_reports", "visible": null },
       { "key": "update_reports", "visible": null },
@@ -76,8 +75,7 @@
       { "key": "view_taxonomies", "visible": null },
       { "key": "update_taxonomies", "visible": null },
       { "key": "delete_taxonomies", "visible": null },
-      { "key": "create_rule_notes", "visible": null },
-
+      
       { "key": "view_users", "visible": null },
       { "key": "create_users", "visible": null },
       { "key": "update_users", "visible": null },
@@ -105,7 +103,6 @@
       { "key": "view_assessment_gaps", "visible": null },
       { "key": "view_assessment_treatment_actions", "visible": null },
       { "key": "view_assessment_overview", "visible": null },
-      { "key": "start_assessment", "visible": null },
       { "key": "archive_assessments", "visible": null },
       { "key": "view_archived_assessments", "visible": null },
       { "key": "create_tasks", "visible": null },
@@ -178,7 +175,6 @@
       { "key": "view_assessment_gaps", "visible": null },
       { "key": "view_assessment_treatment_actions", "visible": null },
       { "key": "view_assessment_overview", "visible": null },
-      { "key": "start_assessment", "visible": null },
       { "key": "archive_assessments", "visible": null },
       { "key": "view_archived_assessments", "visible": null },
       { "key": "create_tasks", "visible": null },
